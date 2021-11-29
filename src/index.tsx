@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ThemeProvider } from '@material-ui/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import './fonts/index.css';
 import * as serviceWorker from './serviceWorker';
 import materialUiTheme from './theme/materialUi';
@@ -13,9 +13,9 @@ import materialUiTheme from './theme/materialUi';
 ReactDOM.render(
       <ThemeProvider theme={materialUiTheme}>
         <CssBaseline />
-        <BrowserRouter>
+        <HashRouter>
             <App />
-        </BrowserRouter>
+        </HashRouter>
       </ThemeProvider>,
   document.getElementById('root'),
 );
