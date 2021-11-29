@@ -215,7 +215,7 @@ export const formatPosition = (position: any): string => {
 //   return directSupervisorItem ? directSupervisorItem.id : '';
 // };
 
-export const getPageTitle = (title: string): string => `${title} | Diamond HQ`;
+export const getPageTitle = (title: string): string => `${title} | Jennifer Lindsay`;
 
 // export const getPersona = (role: string | null | undefined): API.Persona | null => {
 //   switch (role) {
