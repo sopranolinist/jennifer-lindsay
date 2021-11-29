@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a3ba567a.chunk.css",
-    "main.js": "/static/js/main.f2245ef3.chunk.js",
-    "main.js.map": "/static/js/main.f2245ef3.chunk.js.map",
+    "main.js": "/static/js/main.e234d897.chunk.js",
+    "main.js.map": "/static/js/main.e234d897.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d692a041.js",
     "runtime-main.js.map": "/static/js/runtime-main.d692a041.js.map",
     "static/js/2.e72547cd.chunk.js": "/static/js/2.e72547cd.chunk.js",
@@ -13,13 +13,13 @@
     "static/css/main.a3ba567a.chunk.css.map": "/static/css/main.a3ba567a.chunk.css.map",
     "static/js/2.e72547cd.chunk.js.LICENSE.txt": "/static/js/2.e72547cd.chunk.js.LICENSE.txt",
     "static/media/JL_Headshot_Tech.6dbca11a.jpeg": "/static/media/JL_Headshot_Tech.6dbca11a.jpeg",
-    "static/media/Logomark.8b87588a.svg": "/static/media/Logomark.8b87588a.svg",
-    "static/media/Logotype.65450580.svg": "/static/media/Logotype.65450580.svg"
+    "static/media/Logomark.9b970d45.svg": "/static/media/Logomark.9b970d45.svg",
+    "static/media/Logotype.16400527.svg": "/static/media/Logotype.16400527.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d692a041.js",
     "static/js/2.e72547cd.chunk.js",
     "static/css/main.a3ba567a.chunk.css",
-    "static/js/main.f2245ef3.chunk.js"
+    "static/js/main.e234d897.chunk.js"
   ]
 }
