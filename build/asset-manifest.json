@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/sopranolinist/jennifer-lindsay/static/css/main.a3ba567a.chunk.css",
+    "main.js": "/sopranolinist/jennifer-lindsay/static/js/main.4e2592f8.chunk.js",
+    "main.js.map": "/sopranolinist/jennifer-lindsay/static/js/main.4e2592f8.chunk.js.map",
+    "runtime-main.js": "/sopranolinist/jennifer-lindsay/static/js/runtime-main.40773356.js",
+    "runtime-main.js.map": "/sopranolinist/jennifer-lindsay/static/js/runtime-main.40773356.js.map",
+    "static/js/2.e72547cd.chunk.js": "/sopranolinist/jennifer-lindsay/static/js/2.e72547cd.chunk.js",
+    "static/js/2.e72547cd.chunk.js.map": "/sopranolinist/jennifer-lindsay/static/js/2.e72547cd.chunk.js.map",
+    "static/js/3.ecce70e4.chunk.js": "/sopranolinist/jennifer-lindsay/static/js/3.ecce70e4.chunk.js",
+    "static/js/3.ecce70e4.chunk.js.map": "/sopranolinist/jennifer-lindsay/static/js/3.ecce70e4.chunk.js.map",
+    "index.html": "/sopranolinist/jennifer-lindsay/index.html",
+    "static/css/main.a3ba567a.chunk.css.map": "/sopranolinist/jennifer-lindsay/static/css/main.a3ba567a.chunk.css.map",
+    "static/js/2.e72547cd.chunk.js.LICENSE.txt": "/sopranolinist/jennifer-lindsay/static/js/2.e72547cd.chunk.js.LICENSE.txt",
+    "static/media/JL_Headshot_Tech.6dbca11a.jpeg": "/sopranolinist/jennifer-lindsay/static/media/JL_Headshot_Tech.6dbca11a.jpeg",
+    "static/media/Logomark.8b87588a.svg": "/sopranolinist/jennifer-lindsay/static/media/Logomark.8b87588a.svg",
+    "static/media/Logotype.65450580.svg": "/sopranolinist/jennifer-lindsay/static/media/Logotype.65450580.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40773356.js",
+    "static/js/2.e72547cd.chunk.js",
+    "static/css/main.a3ba567a.chunk.css",
+    "static/js/main.4e2592f8.chunk.js"
+  ]
+}
