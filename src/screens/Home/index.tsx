@@ -53,7 +53,7 @@ const Home = () => {
       </Typography>
       <Typography variant="body1" gutterBottom component="div"> For the better part of the last decade, I have also been a freelance opera singer based primarily in the greater Los Angeles area. 
         Most recently I was a member of the Metropolitan Opera Extra Chorus, where I was privileged to sing 30 performances at Lincoln Center in their Grammy-winning production of George Gershwin's <i>Porgy and Bess</i>. 
-        I was extremely honored and privileged to receive an official Grammy Certificate with my name on it as a result of my participation on the recording, which won Best Opera Album in 2020.
+        I was extremely honored to receive an official Grammy Certificate with my name on it as a result of my participation on the recording, which won Best Opera Album in 2020.
         If you'd like to know more about my operatic side, feel free to visit my <Link href="https://jenniferlindsaymusic.com" underline="hover" target="_blank" rel="noopener">{'music website'}</Link>.
       </Typography>
       <Typography variant="body1" gutterBottom component="div"> It has been absolutely incredible having two very different simultaneous careers for so many years. However during the pandemic, when most musical performances were put on hold, I found web and app development slowly becoming my primary focus. 
