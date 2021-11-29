@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component - Footer renders the footer screen 1`] = `
+<div>
+  <div
+    data-testid="component-footer"
+  >
+    <hr
+      class="MuiDivider-root"
+    />
+    <div
+      class="MuiGrid-root Footer-footer-4 Footer-footerLoggedIn-6 MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-space-between"
+    >
+      <div
+        class="MuiGrid-root Footer-footerContent-7 Footer-footerContentLt-9 MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-subtitle1"
+        >
+          © 2020 
+          <a
+            class="Footer-textLink-8"
+            href="https://diamond.la/"
+          >
+            Diamond
+          </a>
+          , All rights reserved
+        </span>
+      </div>
+      <div
+        class="MuiGrid-root Footer-footerContent-7 Footer-footerContentRt-10 MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-2"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-subtitle1"
+        >
+          Version 1.1.0
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Component - Footer should enforce auth context 1`] = `
+<div>
+  <div
+    class="ErrorBoundary-root-1"
+  >
+    <h1
+      class="MuiTypography-root ErrorBoundary-errorHeader-2 MuiTypography-h6"
+    >
+      Error
+    </h1>
+    <span
+      class="MuiTypography-root ErrorBoundary-errorMessage-3 MuiTypography-body1"
+    >
+      The site has encountered an error
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component - LinkTab should render 1`] = `
+<div>
+  <div
+    class="MuiTabs-root"
+  >
+    <div
+      class="MuiTabs-scroller MuiTabs-fixed"
+      style="overflow: hidden;"
+    >
+      <div
+        class="MuiTabs-flexContainer"
+        role="tablist"
+      >
+        <a
+          aria-disabled="false"
+          aria-selected="true"
+          class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected MuiTab-fullWidth"
+          href="/person/list-all"
+          role="tab"
+          tabindex="0"
+        >
+          <span
+            class="MuiTab-wrapper"
+          >
+            View All People
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </a>
+      </div>
+      <span
+        class="PrivateTabIndicator-root-25 PrivateTabIndicator-colorPrimary-26 MuiTabs-indicator"
+        style="left: 0px; width: 0px;"
+      />
+    </div>
+  </div>
+</div>
+`;

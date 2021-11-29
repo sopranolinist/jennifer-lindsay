@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component - PrivateRoute fails outside of Router 1`] = `
+<div>
+  <div
+    class="ErrorBoundary-root-1"
+  >
+    <h1
+      class="MuiTypography-root ErrorBoundary-errorHeader-2 MuiTypography-h6"
+    >
+      Error
+    </h1>
+    <span
+      class="MuiTypography-root ErrorBoundary-errorMessage-3 MuiTypography-body1"
+    >
+      The site has encountered an error
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Component - PrivateRoute renders route for authorized user 1`] = `
+<div>
+  <span>
+    Hello World!
+  </span>
+</div>
+`;
+
+exports[`Component - PrivateRoute renders unauthorized screen for unauthorized user 1`] = `
+<div>
+  <span>
+    Hello World!
+  </span>
+</div>
+`;
+
+exports[`Component - PrivateRoute should enforce auth context 1`] = `
+<div>
+  <div
+    class="ErrorBoundary-root-1"
+  >
+    <h1
+      class="MuiTypography-root ErrorBoundary-errorHeader-2 MuiTypography-h6"
+    >
+      Error
+    </h1>
+    <span
+      class="MuiTypography-root ErrorBoundary-errorMessage-3 MuiTypography-body1"
+    >
+      The site has encountered an error
+    </span>
+  </div>
+</div>
+`;

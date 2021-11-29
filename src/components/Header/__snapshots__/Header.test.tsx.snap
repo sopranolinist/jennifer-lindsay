@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component - Header renders the header screen 1`] = `
+<div>
+  <div
+    data-testid="component-header"
+  >
+    <div
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorDefault makeStyles-appBar-4 mui-fixed MuiPaper-elevation1"
+    >
+      <div
+        class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+      >
+        <button
+          aria-label="Open navigation drawer"
+          class="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-6 MuiIconButton-colorInherit"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="makeStyles-logotype-7"
+        >
+          <div
+            class="makeStyles-logomarkWrapper-9"
+          >
+            <svg>
+              Logomark.svg
+            </svg>
+          </div>
+          <div
+            class="makeStyles-logotypeWrapper-8"
+          >
+            <svg>
+              Logotype.svg
+            </svg>
+          </div>
+        </div>
+        <p
+          class="MuiTypography-root makeStyles-greeting-106 MuiTypography-body1"
+          id="signout-greeting"
+        />
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+          id="signout-button"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Sign Out
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <nav
+      class="NavPrimary-drawer-137"
+    />
+  </div>
+</div>
+`;
+
+exports[`Component - Header should enforce auth context 1`] = `
+<div>
+  <div
+    class="ErrorBoundary-root-1"
+  >
+    <h1
+      class="MuiTypography-root ErrorBoundary-errorHeader-2 MuiTypography-h6"
+    >
+      Error
+    </h1>
+    <span
+      class="MuiTypography-root ErrorBoundary-errorMessage-3 MuiTypography-body1"
+    >
+      The site has encountered an error
+    </span>
+  </div>
+</div>
+`;

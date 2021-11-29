@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component - Footer renders the StatusLabel components 1`] = `
+<div>
+  <span
+    class="makeStyles-mdStatusBox-5 makeStyles-statusApproved-7"
+  >
+    APPROVED
+  </span>
+</div>
+`;
+
+exports[`Component - Footer should enforce auth context 1`] = `
+<div>
+  <span
+    class="makeStyles-smStatusBox-4 makeStyles-statusDenied-8"
+  >
+    DENIED
+  </span>
+</div>
+`;

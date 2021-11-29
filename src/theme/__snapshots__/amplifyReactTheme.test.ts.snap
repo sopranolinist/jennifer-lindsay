@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Theme - Amplify React exports and object 1`] = `
+Object {
+  "a": Object {
+    "color": "#2e79b7",
+  },
+  "button": Object {
+    "backgroundColor": "#2e79b7",
+    "fontFamily": "\\"Roboto\\", sans-serif",
+  },
+  "googleSignInButton": Object {
+    "display": "none",
+  },
+  "navButton": Object {
+    "backgroundColor": "#2e79b7",
+    "fontFamily": "\\"Roboto\\", sans-serif",
+  },
+  "navRight": Object {
+    "fontFamily": "\\"Roboto\\", sans-serif",
+  },
+  "oAuthSignInButton": Object {
+    "backgroundColor": "#2e79b7",
+    "color": "white",
+    "fontFamily": "\\"Roboto\\", sans-serif",
+  },
+  "signInButton": Object {
+    "backgroundColor": "#2e79b7",
+    "fontFamily": "\\"Roboto\\", sans-serif",
+  },
+  "strike": Object {
+    "display": "none",
+  },
+}
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logos renders the Logomark 1`] = `
+<div>
+  <svg>
+    Logomark.svg
+  </svg>
+</div>
+`;
+
+exports[`Logos renders the Logotype 1`] = `
+<div>
+  <svg>
+    Logotype.svg
+  </svg>
+</div>
+`;

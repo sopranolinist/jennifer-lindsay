@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screens - NavPrimaryItem renders a button 1`] = `
+<div>
+  <div
+    aria-disabled="false"
+    class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+    data-testid="navprimaryitem-orglookup"
+    role="button"
+    tabindex="0"
+  >
+    <div
+      class="MuiListItemIcon-root"
+    />
+    <div
+      class="MuiListItemText-root"
+    >
+      <span
+        class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+      >
+        Org Look Up
+      </span>
+    </div>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </div>
+</div>
+`;

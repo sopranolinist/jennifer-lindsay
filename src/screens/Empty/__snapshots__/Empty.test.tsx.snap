@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen - Empty should render the temporary "empty" screen 1`] = `
+<div>
+  <div
+    class="makeStyles-root-1"
+    data-testid="screen-empty"
+  />
+</div>
+`;
