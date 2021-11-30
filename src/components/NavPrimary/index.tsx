@@ -10,6 +10,7 @@ import { drawerWidth } from '../../helpers/NavHelper';
 import {
   routeHome,
   routeContact,
+  routePortfolio,
 } from '../../helpers/RouteHelper';
 import { PollIcon } from '../../images/Icons';
 import NavPrimaryItem from './NavPrimaryItem';
@@ -78,6 +79,14 @@ const NavPrimary = ({ classes, theme, mobileOpen, closeDrawer }: Props) => {
               closeDrawer={closeDrawer}
             />
             <Divider variant="inset" />
+            <NavPrimaryItem
+              label="Portfolio"
+              path={routePortfolio()}
+              pathname={routePortfolio()}
+              name="portfolio"
+              key="portfolio"
+              closeDrawer={closeDrawer}
+            />
             <NavPrimaryItem
               label="Contact"
               path={routeContact()}

@@ -31,8 +31,8 @@ export const palette = {
   }
 };
 export const typography = {
-  htmlFontSize: 10,
-  fontFamily: '"Roboto", sans-serif'
+  htmlFontSize: 12,
+  fontFamily: '"Optima", "Roboto", sans-serif'
 };
 
 const MuiButtonBase = {

@@ -32,8 +32,13 @@ const useStyles = makeStyles((theme: Theme) =>
     socialMedia: {
         display: 'flex',
         flexDirection: 'row',
-        alignItems: 'center'
-      },
+        alignItems: 'center',
+
+    },
+    socialMediaLink: {
+        display: 'flex',
+        alignItems: 'center',
+    }
   }),
 );
 
@@ -52,9 +57,9 @@ const Contact = () => {
          />
       </div>
       <div className={classes.body}>
-        <Typography variant="body1" gutterBottom component="div"> Email: jen [at] jenniferlindsay [dot] com</Typography> 
-        <Typography variant="body1" gutterBottom component="div" className={classes.socialMedia}>Social Media: 
-            <Link href="https://www.linkedin.com/in/jennifermlindsay/" underline="hover" target="_blank" rel="noopener">
+        <Typography variant="body2" gutterBottom component="div"> Email: jen [at] jenniferlindsay [dot] com</Typography> 
+        <Typography variant="body2" gutterBottom component="div" className={classes.socialMedia}>Social Media: 
+            <Link href="https://www.linkedin.com/in/jennifermlindsay/" underline="hover" target="_blank" rel="noopener" className={classes.socialMediaLink}>
                 <LinkedInIcon />
             </Link>
         </Typography>

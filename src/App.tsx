@@ -10,6 +10,7 @@ import PrivateRoute from './components/PrivateRoute';
 import { drawerWidth } from './helpers/NavHelper';
 import { PrivateScreenRoutes, PublicScreenRoutes } from './helpers/RouteHelper';
 import { LayoutProvider } from './hooks/LayoutContext';
+import Empty from './screens/Empty';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -97,6 +98,7 @@ const App = ({ history, location }: RouteComponentProps) => {
                   {PublicScreenRoutes.map((props, index) => (
                     <Route {...props} key={index} />
                   ))}
+                  <Route component={Empty} />
                 </Switch>
               </div>
             </Suspense>
