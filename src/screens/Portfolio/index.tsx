@@ -7,11 +7,11 @@ import ImageList from '@material-ui/core/ImageList';
 import ImageListItem from '@material-ui/core/ImageListItem';
 import React from 'react';
 import DocumentTitle from 'react-document-title';
-import { Player } from 'video-react';
+import ReactPlayer from 'react-player/lazy';
 import { getPageTitle } from '../../helpers/DataHelper';
 import avatar from "../../images/photos/JL_Headshot_Tech.jpeg";
-import videoPhoto from "../../images/screenshots/Wondery_App_Splash.jpg"
-import Video from '../../media/Wondery_App_Android_Demo.mp4'
+// import videoPhoto from "../../images/screenshots/Wondery_App_Splash.jpg"
+// import Video from '../../media/Wondery_App_Android_Demo.mp4'
 import cosmosDashboardImg from "../../images/screenshots/BF_Cosmos_Dashboard.jpeg"
 import cosmosASMImg from "../../images/screenshots/BF_Cosmos_ASM.jpeg"
 
@@ -50,10 +50,10 @@ const useStyles = makeStyles((theme: Theme) =>
       display: 'flex',
       flexDirection: 'column',
       alignSelf: 'center',
-      width: 240,
-      height: 480,
+      // width: 240,
+      // height: 480,
       marginTop: 20,
-      marginBottom: 100
+      marginBottom: 40
     },
     imgList: {
       display: 'flex',
@@ -64,11 +64,6 @@ const useStyles = makeStyles((theme: Theme) =>
     }
   }),
 );
-
-const itemData = [
-  {title: 'dashboard', img: cosmosDashboardImg},
-  {title: 'asm', img: cosmosASMImg}
-];
 
 const Portfolio = () => {
   const classes = useStyles();
@@ -94,10 +89,11 @@ const Portfolio = () => {
           Feel free to explore the app yourself by downloading it from the <Link href="https://apps.apple.com/us/app/wondery-premium-podcast-app/id1485913772" underline="hover" target="_blank" rel="noopener">Apple AppStore</Link> or the <Link href="https://play.google.com/store/apps/details?id=com.wondery&hl=en_US&gl=US" underline="hover" target="_blank" rel="noopener">Google Play Store</Link>.
         </Typography>
         <div className={classes.videoPlayer}>
-          <Player
-            playsInline
-            poster={videoPhoto}
-            src={Video}
+          <ReactPlayer 
+            url='Wondery_App_Android_Demo.mp4'
+            height='600px'
+            width='300px'
+            controls={true}
           />
         </div>
         <Divider />
