@@ -81,11 +81,11 @@ const Portfolio = () => {
       </div>
       <div className={classes.body}>
       <Divider />
-        <Typography variant="h5" component="div"> Podcast App | Client: Wondery Podcast Network</Typography>
+        <Typography variant="h5" gutterBottom component="div"> Podcast App | Client: Wondery Podcast Network</Typography>
         <Typography variant="body2" gutterBottom component="div">
           The Wondery Podcast App is a React Native cross-platform mobile application for delivering premium audio content from Wondery Podcast Network's vast collection of original podcast shows. 
           Account and content data are stored in an AWS hosted backend environment, and episode audio files are delivered from various 3rd party podcast distribution services. 
-          Here's a brief video showcasing some of the app's primary features. 
+          As the frontend tech lead for the Wondery App, I work closely with the product owner to provide technical guidance for transforming the client's vision into formal, end-to-end requirements. I also oversee all code contributions to the code base, monitor Agile sprint progress, triage urgent customer requests or bug reports, coordinate cross-team efforts with the design, web and backend leads, and contribute to the code base myself. Here's a brief video showcasing some of the app's primary features. 
           Feel free to explore the app yourself by downloading it from the <Link href="https://apps.apple.com/us/app/wondery-premium-podcast-app/id1485913772" underline="hover" target="_blank" rel="noopener">Apple AppStore</Link> or the <Link href="https://play.google.com/store/apps/details?id=com.wondery&hl=en_US&gl=US" underline="hover" target="_blank" rel="noopener">Google Play Store</Link>.
         </Typography>
         <div className={classes.videoPlayer}>
