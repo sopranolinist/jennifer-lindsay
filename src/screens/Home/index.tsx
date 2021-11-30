@@ -57,9 +57,9 @@ const Home = () => {
         If you'd like to know more about my operatic side, feel free to visit my <Link href="https://jenniferlindsaymusic.com" underline="hover" target="_blank" rel="noopener">{'music website'}</Link>.
       </Typography>
       <Typography variant="body2" gutterBottom component="div"> It has been absolutely incredible having two very different simultaneous careers for so many years. However during the pandemic, when most musical performances were put on hold, I found web and app development slowly becoming my primary focus. 
-        When I was given the opportunity to move into management at DWS I seized it, and I hope to continue to grow my leadership skills for many years to come. 
-        
+        When I was given the opportunity to move into management at DWS I seized it, and I hope to continue to grow my leadership skills for many years to come.         
       </Typography>
+      <Typography variant="body2" gutterBottom component="div"> I'm currently based in Orange County, CA, not far from where I grew up. (No, we don't call it "The O.C." Yes, we do say "behind the Orange Curtain.") In my spare time, I like to sew historical costumes and compete with my friends on Duolingo to see who can get the most XP each week. I also enjoy working up a sweat, whether by hiking the local trails or with the Supernatural app on my Oculus Quest VR headset, even though exercise makes my hair extremely frizzy :)</Typography>
       </div>
     </div>
   );
