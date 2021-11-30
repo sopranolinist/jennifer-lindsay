@@ -3,8 +3,6 @@ import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
 import Avatar from '@material-ui/core/Avatar';
-import ImageList from '@material-ui/core/ImageList';
-import ImageListItem from '@material-ui/core/ImageListItem';
 import React from 'react';
 import DocumentTitle from 'react-document-title';
 import ReactPlayer from 'react-player/lazy';
@@ -55,12 +53,9 @@ const useStyles = makeStyles((theme: Theme) =>
       marginTop: 20,
       marginBottom: 40
     },
-    imgList: {
-      display: 'flex',
-      flexDirection: 'column',
-      alignSelf: 'center',
-      width: 800, 
-      height: 1300
+    img: {
+      width: '100%', 
+      height: 'auto'
     }
   }),
 );
@@ -102,8 +97,8 @@ const Portfolio = () => {
           The <Link href="https://bishopfox.com/platform" underline="hover" target="_blank" rel="noopener">Cosmos Platform</Link> is a React-based web tool built to assist cyber security teams with identifying, validating, and enabling remediation of dangerous leaks and exposures. 
           As the lead frontend developer on this project for Bishop Fox, I helped design requirements for and implement most of the dashboard components and tools, and I also implemented the frontend integration for the client's custom-designed API. Cosmos is a proprietary tool, but here are a few screenshots from its dashboard:
         </Typography>
-        <img src={cosmosDashboardImg} alt="Dashboard" />
-        <img src={cosmosASMImg} alt="ASM" />
+        <img src={cosmosDashboardImg} alt="Dashboard" style={{ width: '100%', height: 'auto' }} />
+        <img src={cosmosASMImg} alt="ASM" style={{ width: '100%', height: 'auto' }} />
       </div>
     </div>
   );
