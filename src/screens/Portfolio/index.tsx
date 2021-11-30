@@ -100,7 +100,7 @@ const Portfolio = () => {
         <Typography variant="h5" gutterBottom component="div"> Cosmos Platform | Client: Bishop Fox</Typography>
         <Typography variant="body2" gutterBottom component="div">
           The <Link href="https://bishopfox.com/platform" underline="hover" target="_blank" rel="noopener">Cosmos Platform</Link> is a React-based web tool built to assist cyber security teams with identifying, validating, and enabling remediation of dangerous leaks and exposures. 
-          As the lead frontend developer on this project for Bishop Fox, I helped implement most of the dashboard components and tools, as well as the frontend integration for the client's custom-designed API. Cosmos is a proprietary tool, but here are a few screenshots from its dashboard:
+          As the lead frontend developer on this project for Bishop Fox, I helped design requirements for and implement most of the dashboard components and tools, and I also implemented the frontend integration for the client's custom-designed API. Cosmos is a proprietary tool, but here are a few screenshots from its dashboard:
         </Typography>
         <img src={cosmosDashboardImg} alt="Dashboard" />
         <img src={cosmosASMImg} alt="ASM" />
