@@ -7,6 +7,7 @@ import React from 'react';
 import DocumentTitle from 'react-document-title';
 import ReactPlayer from 'react-player/lazy';
 import { getPageTitle } from '../../helpers/DataHelper';
+import Wordle from '../Wordle';
 import avatar from "../../images/photos/JL_Headshot_Tech.jpeg";
 // import videoPhoto from "../../images/screenshots/Wondery_App_Splash.jpg"
 // import Video from '../../media/Wondery_App_Android_Demo.mp4'
@@ -98,7 +99,13 @@ const Portfolio = () => {
           As the lead frontend developer on this project for Bishop Fox, I helped design requirements for and implement most of the dashboard components and tools, and I also implemented the frontend integration for the client's custom-designed API. Cosmos is a proprietary tool, but here are a few screenshots from its dashboard:
         </Typography>
         <img src={cosmosDashboardImg} alt="Dashboard" style={{ width: '100%', height: 'auto' }} />
-        <img src={cosmosASMImg} alt="ASM" style={{ width: '100%', height: 'auto' }} />
+        <img src={cosmosASMImg} alt="ASM" style={{ width: '100%', height: 'auto', margin: '0px 0px 40px 0px' }} />
+        <Divider />
+        <Typography variant="h5" gutterBottom component="div"> Wordlish | Personal Project </Typography>
+        <Typography variant="body2" gutterBottom component="div">
+          It's been forever since I've coded for fun, so here is a simple game that is essentially a stripped down version of Wordle. When I can find the time, I hope to come back and add more features. To get started, just start typing into the first line (use TAB to move between boxes) and tap ENTER when you want to check your guess. If you find a bug, please let me know!
+        </Typography>
+        <Wordle />
       </div>
     </div>
   );
