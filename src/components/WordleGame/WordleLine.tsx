@@ -23,19 +23,19 @@ function WordleLine({ enabled, handleLetterChange, colors, reset }: WordleLinePr
   const handleChange = (e: React.SyntheticEvent<EventTarget>) => {
     switch(+(e.target as HTMLInputElement).id) {
       case 1:
-        setLetter1((e.target as HTMLInputElement).value)
+        setLetter1((e.target as HTMLInputElement).value.toLowerCase())
         break;
       case 2:
-        setLetter2((e.target as HTMLInputElement).value)
+        setLetter2((e.target as HTMLInputElement).value.toLowerCase())
         break;
       case 3:
-        setLetter3((e.target as HTMLInputElement).value)
+        setLetter3((e.target as HTMLInputElement).value.toLowerCase())
         break;
       case 4:
-        setLetter4((e.target as HTMLInputElement).value)
+        setLetter4((e.target as HTMLInputElement).value.toLowerCase())
         break;
       case 5:
-        setLetter5((e.target as HTMLInputElement).value)
+        setLetter5((e.target as HTMLInputElement).value.toLowerCase())
         break;
       default:
         break;
