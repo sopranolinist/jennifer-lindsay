@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Jennifer Lindsay's Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my website! This project was bootstrapped from [Create React App](https://github.com/facebook/create-react-app) with Typescript.
 
 ## Available Scripts
 
