@@ -103,7 +103,7 @@ const Portfolio = () => {
         <Divider />
         <Typography variant="h5" gutterBottom component="div"> Wordlish | Personal Project </Typography>
         <Typography variant="body2" gutterBottom component="div">
-          It's been forever since I've coded for fun, so here is a simple game that is essentially a stripped down version of Wordle. When I can find the time, I hope to come back and add more features. To get started, just start typing into the first line (use TAB to move between boxes) and tap ENTER when you want to check your guess. If you find a bug, please let me know!
+          It's been forever since I've coded for fun, so here is a simple game that is essentially a stripped down version of <Link href="https://www.nytimes.com/games/wordle/index.html"  underline="hover" target="_blank" rel="noopener">Wordle</Link>. One feature I dislike in the official game is that you can't enter individual letters you discovered from previous guesses into specific positions. I've done away with that annoyance here in Wordlish. To get started, click or tap on any grey box in the first line and begin entering letters, one per box. Tap ENTER to check your guess or NEW GAME to start over with a different random word. If you find a bug, please let me know!
         </Typography>
         <Wordle />
       </div>
