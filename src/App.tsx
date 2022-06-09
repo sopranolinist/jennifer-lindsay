@@ -62,13 +62,13 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 const App = ({ history, location }: RouteComponentProps) => {
-  const [processing, setProcessing] = useState<boolean>(false);
+  // const [processing, setProcessing] = useState<boolean>(false);
   const classes = useStyles();
   const [rightDrawerOpen, setRightDrawerOpen] = useState(false);
 
-  if (processing) {
-    return <LinearProgress />;
-  }
+  // if (processing) {
+  //   return <LinearProgress />;
+  // }
 
   return (
     <LayoutProvider value={{ rightDrawerOpen, setRightDrawerOpen }}>

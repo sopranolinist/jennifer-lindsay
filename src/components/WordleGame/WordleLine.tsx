@@ -20,6 +20,8 @@ function WordleLine({ enabled, handleLetterChange, colors, reset }: WordleLinePr
   const [letter4Color, setLetter4Color] = useState(GRAY_COLOR);
   const [letter5Color, setLetter5Color] = useState(GRAY_COLOR);
 
+  const handleFocus = (e: React.SyntheticEvent<EventTarget>) => (e.target as HTMLInputElement).select();
+
   const handleChange = (e: React.SyntheticEvent<EventTarget>) => {
     switch(+(e.target as HTMLInputElement).id) {
       case 1:
@@ -81,6 +83,7 @@ function WordleLine({ enabled, handleLetterChange, colors, reset }: WordleLinePr
           value={letter1}
           maxLength={1}
           onChange={handleChange}
+          onFocus={handleFocus}
           disabled={!enabled}
         />
       </li>
@@ -92,6 +95,7 @@ function WordleLine({ enabled, handleLetterChange, colors, reset }: WordleLinePr
           value={letter2}
           maxLength={1}
           onChange={handleChange}
+          onFocus={handleFocus}
           disabled={!enabled}
         />
       </li>
@@ -103,6 +107,7 @@ function WordleLine({ enabled, handleLetterChange, colors, reset }: WordleLinePr
           value={letter3}
           maxLength={1}
           onChange={handleChange}
+          onFocus={handleFocus}
           disabled={!enabled}
         />
       </li>
@@ -114,6 +119,7 @@ function WordleLine({ enabled, handleLetterChange, colors, reset }: WordleLinePr
           value={letter4}
           maxLength={1}
           onChange={handleChange}
+          onFocus={handleFocus}
           disabled={!enabled}
         />
       </li>
@@ -125,6 +131,7 @@ function WordleLine({ enabled, handleLetterChange, colors, reset }: WordleLinePr
           value={letter5}
           maxLength={1}
           onChange={handleChange}
+          onFocus={handleFocus}
           disabled={!enabled}
         />
       </li>

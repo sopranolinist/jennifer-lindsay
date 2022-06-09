@@ -76,7 +76,7 @@ const Footer = ({ classes, version, year }: Props) => {
       <Grid
         container
         direction="row"
-        justify="space-between"
+        justifyContent="space-between"
         alignItems="center"
         className={classNames(classes.footer, {
           [classes.footerLoggedIn]: true,

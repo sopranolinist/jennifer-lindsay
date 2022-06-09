@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 import WordleGame from "../../components/WordleGame"
 import wordleData from "../../data/wordle.json"
 import allowedGuessesData from '../../data/allowedguesses.json'
@@ -12,16 +12,16 @@ function Wordle() {
     return allowedGuesses.indexOf(word) > -1 || wordles.indexOf(word) > -1;
   }
 
-  const getNextWordle = () => {
+  const getNextWordle = useCallback(() => {
     const nextWordle = wordles[Math.floor(Math.random() * wordles.length)];
     // console.log('DEBUG MODE', {nextWordle});
     setWordle(nextWordle);
-  }
+  }, [wordles]);
 
   useEffect(() => {
     // initialize the game to the first wordle
     if(wordles.length > 0) getNextWordle();
-  }, [wordles]);
+  }, [getNextWordle, wordles]);
   
   return (
     <div>

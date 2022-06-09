@@ -4,7 +4,6 @@ import List from '@material-ui/core/List';
 import { createStyles, Theme, withStyles, WithStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
-import { format } from 'date-fns';
 import React from 'react';
 import { drawerWidth } from '../../helpers/NavHelper';
 import {
