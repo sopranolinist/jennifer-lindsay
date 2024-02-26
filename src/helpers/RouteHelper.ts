@@ -2,6 +2,7 @@ import { RouteProps } from 'react-router-dom';
 import Home from '../screens/Home';
 import Contact from '../screens/Contact';
 import Portfolio from '../screens/Portfolio';
+import Wedding from '../screens/Wedding';
 // import OrgChart from '../screens/OrgChart';
 // import Person from '../screens/Person';
 // import RecruitingResidualsReport from '../screens/RecruitingResidualsReport';
@@ -12,6 +13,7 @@ export const activeRoutes = ['home','contact'];
 export const routeHome: () => string = () => '/home';
 export const routeContact: () => string = () => '/contact';
 export const routePortfolio: () => string = () => '/portfolio';
+export const routeWedding: () => string = () => '/wedding';
 export const routeUnauthorized: () => string = () => '/unauthorized';
 export const routeTimeoff: (
   regex: boolean,
@@ -95,6 +97,11 @@ export const PrivateScreenRoutes: Array<RouteProps> = [
   {
     path: routeContact(),
     component: Contact,
+    exact: true,
+  },
+  {
+    path: routeWedding(),
+    component: Wedding,
     exact: true,
   },
   // {

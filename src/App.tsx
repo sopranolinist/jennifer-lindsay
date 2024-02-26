@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme: Theme) =>
         marginLeft: drawerWidth,
       },
     },
-    toolbar: theme.mixins.toolbar,
+    // toolbar: theme.mixins.toolbar,
     hasRightDrawer: {
       [theme.breakpoints.up('md')]: {
         paddingRight: drawerWidth,
@@ -84,7 +84,6 @@ const App = ({ history, location }: RouteComponentProps) => {
             </header>
             <Suspense fallback={<LinearProgress />}>
               <div role="main" className={classes.mainContent}>
-                <div className={classes.toolbar} />
                 <Switch>
                   <Redirect exact path="/" to="/home" />
                   {localStorage.getItem('deepLink') ? (

@@ -16,7 +16,7 @@ import NavPrimaryItem from './NavPrimaryItem';
 
 const styles = (theme: Theme) =>
   createStyles({
-    toolbar: theme.mixins.toolbar,
+    // toolbar: theme.mixins.toolbar,
     drawer: {
       [theme.breakpoints.up('sm')]: {
         width: drawerWidth,
@@ -60,7 +60,6 @@ const NavPrimary = ({ classes, theme, mobileOpen, closeDrawer }: Props) => {
           : {})}
       >
         <div>
-          <div className={classes.toolbar} />
           <div className={classes.authStatus}>
             <Typography align="left" noWrap variant="body2" component="h4">
               {'Menu'}
