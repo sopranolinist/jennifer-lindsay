@@ -49,3 +49,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 - commit your edits to master branch and push to `origin`
 - run `npm run deploy`
+- visit Pages [config](https://github.com/sopranolinist/jennifer-lindsay/settings/pages) and make sure custom domain is set to `jenniferlindsay.com`
+
+
