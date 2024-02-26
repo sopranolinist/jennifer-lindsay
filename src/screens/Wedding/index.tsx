@@ -46,7 +46,7 @@ const Wedding = () => {
         <Typography variant="body1" gutterBottom component="div"> 
           Benjamin Alexander Mis and Jennifer Milicent Lindsay are pleased to announce their impending nuptials on October 19th, 2024, at 2pm. 
           The wedding will be held at the Old Orange County Courthouse in Santa Ana, followed by a reception nearby. 
-          Further details forthcoming this summer, in the meantime please save the date to celebrate with us! 
+          Further details (including RSVP) forthcoming this summer, in the meantime please save the date to celebrate with us! 
         </Typography>
       </div>
     </div>
