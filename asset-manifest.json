@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a907dbef.chunk.css",
-    "main.js": "/static/js/main.c339621f.chunk.js",
-    "main.js.map": "/static/js/main.c339621f.chunk.js.map",
+    "main.js": "/static/js/main.e70d0d5c.chunk.js",
+    "main.js.map": "/static/js/main.e70d0d5c.chunk.js.map",
     "reactPlayerDailyMotion.js": "/static/js/reactPlayerDailyMotion.5a5b57a6.chunk.js",
     "reactPlayerDailyMotion.js.map": "/static/js/reactPlayerDailyMotion.5a5b57a6.chunk.js.map",
     "reactPlayerFacebook.js": "/static/js/reactPlayerFacebook.8853ef4a.chunk.js",
@@ -31,23 +31,24 @@
     "reactPlayerYouTube.js.map": "/static/js/reactPlayerYouTube.62b136c1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0b6d298b.js",
     "runtime-main.js.map": "/static/js/runtime-main.0b6d298b.js.map",
-    "static/js/15.8a817e23.chunk.js": "/static/js/15.8a817e23.chunk.js",
-    "static/js/15.8a817e23.chunk.js.map": "/static/js/15.8a817e23.chunk.js.map",
+    "static/js/15.d16c6c06.chunk.js": "/static/js/15.d16c6c06.chunk.js",
+    "static/js/15.d16c6c06.chunk.js.map": "/static/js/15.d16c6c06.chunk.js.map",
     "static/js/16.ae14fac5.chunk.js": "/static/js/16.ae14fac5.chunk.js",
     "static/js/16.ae14fac5.chunk.js.map": "/static/js/16.ae14fac5.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.a907dbef.chunk.css.map": "/static/css/main.a907dbef.chunk.css.map",
-    "static/js/15.8a817e23.chunk.js.LICENSE.txt": "/static/js/15.8a817e23.chunk.js.LICENSE.txt",
+    "static/js/15.d16c6c06.chunk.js.LICENSE.txt": "/static/js/15.d16c6c06.chunk.js.LICENSE.txt",
     "static/media/BF_Cosmos_ASM.786b6ffb.jpeg": "/static/media/BF_Cosmos_ASM.786b6ffb.jpeg",
     "static/media/BF_Cosmos_Dashboard.16cca9c7.jpeg": "/static/media/BF_Cosmos_Dashboard.16cca9c7.jpeg",
+    "static/media/Ben_Jen_Wedding_Save_The_Date.c32e1082.png": "/static/media/Ben_Jen_Wedding_Save_The_Date.c32e1082.png",
     "static/media/JL_Headshot_Tech.6dbca11a.jpeg": "/static/media/JL_Headshot_Tech.6dbca11a.jpeg",
     "static/media/Logomark.9b970d45.svg": "/static/media/Logomark.9b970d45.svg",
     "static/media/Logotype.16400527.svg": "/static/media/Logotype.16400527.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0b6d298b.js",
-    "static/js/15.8a817e23.chunk.js",
+    "static/js/15.d16c6c06.chunk.js",
     "static/css/main.a907dbef.chunk.css",
-    "static/js/main.c339621f.chunk.js"
+    "static/js/main.e70d0d5c.chunk.js"
   ]
 }
