@@ -81,6 +81,9 @@ const Wedding = () => {
           The wedding will be a private ceremony at the Old Orange County Courthouse in Santa Ana, followed by a reception at Maggiano's Little Italy from 3:30pm-6:30pm. 
         </Typography>
         <Typography variant="h5" gutterBottom component="div">
+          You may visit our wedding registry <a target="_blank" href="https://withjoy.com/jennifer-and-benjamin-oct-24/registry">here</a>
+        </Typography>
+        <Typography variant="h5" gutterBottom component="div">
           Please RSVP for the Reception by filling out <a target="_blank" href="https://forms.gle/Ui3M59s6ddvBRGhK9">this form</a>
         </Typography>
         <Typography variant="body1" gutterBottom component="div">
