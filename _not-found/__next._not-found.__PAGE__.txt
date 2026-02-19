@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
 2:I[9300,["/_next/static/chunks/b24848db5dc4bb54.js","/_next/static/chunks/74f25794454a83ab.js"],"OutletBoundary"]
 3:"$Sreact.suspense"
-0:{"buildId":"bm-vAvdeWFSmnosF9Yqfj","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"container","children":[["$","h1",null,{"children":"Page Not Found"}],["$","p",null,{"children":"Nothing to see here, move along."}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"y2J5l1mhB_KvMbs8Dmay0","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"container","children":[["$","h1",null,{"children":"Page Not Found"}],["$","p",null,{"children":"Nothing to see here, move along."}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
 4:null
