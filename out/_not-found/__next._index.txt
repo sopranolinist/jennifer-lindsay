@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[79008,["/_next/static/chunks/b24848db5dc4bb54.js","/_next/static/chunks/74f25794454a83ab.js"],"default"]
+3:I[76975,["/_next/static/chunks/b24848db5dc4bb54.js","/_next/static/chunks/74f25794454a83ab.js"],"default"]
+4:I[84203,["/_next/static/chunks/b24848db5dc4bb54.js","/_next/static/chunks/74f25794454a83ab.js"],"default"]
+:HL["/_next/static/chunks/6a74d95d85de8b47.css","style"]
+0:{"buildId":"hYyhDwwiAsjJ78e5eEwUV","rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/6a74d95d85de8b47.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/b24848db5dc4bb54.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/74f25794454a83ab.js","async":true}]],["$","html",null,{"lang":"en","children":["$","body",null,{"children":[["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[["$","div",null,{"className":"container","children":[["$","h1",null,{"children":"Page Not Found"}],["$","p",null,{"children":"Nothing to see here, move along."}]]}],[]]}]}],["$","footer",null,{"children":[["$","div",null,{"children":"© 2026 Jennifer Lindsay | All Rights Reserved"}],["$","div",null,{"children":"v 1.0.1"}]]}]]}]}]]}],"loading":null,"isPartial":false}

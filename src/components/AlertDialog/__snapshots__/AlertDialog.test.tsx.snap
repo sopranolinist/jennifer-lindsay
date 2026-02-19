@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Component - Footer renders the alert dialog component 1`] = `
-<div
-  aria-hidden="true"
->
-  <div />
-</div>
-`;

@@ -1,0 +1,206 @@
+
+:root {
+  --bg: #f5f5f5;
+  --text: #333;
+  --accent: #1976d2;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Optima, 'Times New Roman', serif;
+}
+
+.appbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: 64px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.appbar .title {
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 12px;
+  font-family: Optima, 'Times New Roman', serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 32px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.hero img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 400;
+  margin: 0 0 24px 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 24;
+}
+
+footer {
+  border-top: 1px solid #ddd;
+  padding: 16px 16px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.rowCentered {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+/* --- AppShell / Drawer styles --- */
+.iconButton{
+  appearance:none;
+  border:0;
+  background:transparent;
+  cursor:pointer;
+  font-size:24px;
+  line-height:1;
+  padding:10px;
+  border-radius:8px;
+}
+.iconButton:hover{ background: rgba(0,0,0,0.06); }
+.iconButton:focus,
+.iconButton:focus-visible,
+.iconButton:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.page{
+  min-height: calc(100vh - 64px - 56px);
+}
+
+.overlay{
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 160ms ease;
+  z-index: 40;
+}
+.overlayOpen{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.drawer{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 320px;
+  background: #fff;
+  transform: translateX(-105%);
+  transition: transform 180ms ease;
+  z-index: 50;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+}
+.drawerOpen{
+  transform: translateX(0);
+}
+
+.drawerHeader{
+  height: 64px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 16px;
+  border-bottom: 1px solid #ddd;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+.drawerTitle{
+  font-weight: 400;
+  font-size: 18px;
+  font-family: Optima, 'Times New Roman', serif;
+}
+
+.drawerNav{
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+}
+
+.drawerLink{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px;
+  color: #111;
+  text-decoration: none;
+  font-family: Optima, 'Times New Roman', serif;
+  font-size: 20px;
+}
+.drawerLink:hover{ 
+  background: rgba(0,0,0,0.06);   
+  text-decoration: none;}
+.drawerLinkActive{
+  background: rgba(0,0,0,0.08);
+  text-decoration: none;
+}
+
+.drawerIcon{
+  width: 28px;
+  display: inline-flex;
+  justify-content: center;
+  opacity: 0.7;
+}
+
+/* On large screens, keep hamburger but you can later choose to show a static sidebar */
+@media (min-width: 900px){
+  .drawer{ width: 360px; }
+}

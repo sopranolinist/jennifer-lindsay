@@ -1,5 +1,0 @@
-/* overriding react-d3-tree styles that can't be overriden from the library */
-
-.leafNodeBase {
-  cursor: inherit;
-}
