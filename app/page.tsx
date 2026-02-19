@@ -13,6 +13,18 @@ export default function Home() {
       <p>I am a software engineer and engineering manager specializing in web and mobile application development. I currently serve as a Software Engineering Manager at <a href="https://www.collectors.com/" target="_blank" rel="noopener noreferrer">Collectors</a>, where I lead a team of Java, React, and Flutter engineers responsible for building and maintaining the platform behind the <a href="https://www.psacard.com/info/psa-vault" target="_blank" rel="noopener noreferrer">PSA Vault</a>.</p>
 
       <p>Since 2024, I have also overseen the launch of several PSA Marketplace initiatives, including the <a href="https://www.psacard.com/info/consignment-rates" target="_blank" rel="noopener noreferrer">PSA/eBay Marketplace</a>, <a href="https://www.psacard.com/info/psa-partner-offers" target="_blank" rel="noopener noreferrer">PSA Partner Offers</a>, and <a href="https://powerpacks.gamestop.com/" target="_blank" rel="noopener noreferrer">Power Packs</a> (in partnership with GameStop).</p>
+      
+        <picture>
+          <source
+            media="(max-width: 768px)"
+            srcSet="/images/psa-marketplace-mobile.png"
+          />
+          <img
+            src="/images/psa-marketplace-desktop.png"
+            alt="PSA Marketplace"
+            className="fullWidthImage"
+          />
+        </picture>
 
       <p>Previously, I worked as a Software Engineering Lead at Wondery, where I helped launch the Wondery Mobile App, an exclusive listening experience for fans of the <a href="https://wondery.com/" target="_blank" rel="noopener noreferrer">Wondery Podcast Network</a>.</p>
 
